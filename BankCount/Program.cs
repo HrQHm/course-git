@@ -36,7 +36,7 @@ namespace BankCount {
             Console.Write("Entre um valor para saque: ");
             countClass.SaqueSaldo(double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
             Console.WriteLine(countClass);
-
+            Console.WriteLine("Teste github");
 
 
         }
